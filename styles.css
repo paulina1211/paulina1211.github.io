@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,300;0,400;0,600;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+
+:root {
+    /* --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; */
+    
+    
+    /* Override variables*/
+    --white: hsla(60, 100%, 100%, 1);
+    --misty-rose: hsla(12, 100%, 93%, 1);
+    --desert-sand: hsla(18, 39%, 77%, 1);
+    --candy-pink: hsla(0, 66%, 65%, 1);
+    --black-coffee: hsla(337, 13%, 20%, 1);
+
+    --font-family-sans-serif: 'Roboto',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-serif: 'Josefin Slab', serif;
+
+    --color-text: var(--black-coffee);
+    --font-family-text: var(--font-family-sans-serif);
+}
+
+/* -------------------------------GLOBAL------------------------------- */
+
+body {
+    background: var(--white);
+    font-family: var(--font-family-text);
+    color: var(--black-coffee);
+    font-weight: 400;
+    letter-spacing: .1em;
+    position: relative;
+    min-height: 100vh;
+}
+
+.family-sans {
+    font-family: var(--font-family-sans-serif);
+}
+
+/* -------------------------------NAVBAR------------------------------- */
+ 
+.navbar {
+    /* background: var(--desert-sand); */
+    background: rgb(255,253,249);
+    background: linear-gradient(0deg, rgba(255,253,249,1) 0%, rgba(219,187,173,1) 100%);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 4rem;
+}
+
+.navbar ul {
+    margin: 0 auto 0 auto;
+}
+
+.navbar a {
+    color: var(--black-coffee);
+}
+
+.navbar .navbar-toggler-icon {
+    color: var(--black-coffee);    
+}
+/* -------------------------------HEADER GENERIC------------------------------- */
+
+.site-header {
+    padding: 10% 0 10% 0;
+}
+
+.page-header-title {
+    font-family: var(--font-family-serif);
+    font-weight: 600;
+    font-size: 4em;
+}
+.page-header-body {
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+/* -------------------------------CONTENT GENERIC------------------------------- */
+.content-title {
+    color: var(--candy-pink);
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 1.7em;
+}
+.content-body {
+    font-size: 1em;
+    font-weight: 200;
+    text-align: left;
+}
+
+.content {
+    padding: 4rem 2rem 4rem 2rem;
+    padding-bottom: 2.5rem;
+}
+
+/* -------------------------------ABOUT------------------------------- */
+
+
+/* -------------------------------PROGRAMMING------------------------------- */
+
+
+/* -------------------------------PHOTOGRAPHY------------------------------- */
+
+
+/* -------------------------------ILLUSTRATION------------------------------- */
+
+
+/* -------------------------------FOOTER------------------------------- */
+.site-footer {
+    background: rgb(255,253,249);
+    background: linear-gradient(180deg, rgba(255,253,249,1) 0%, rgba(219,187,173,1) 100%);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4rem; 
+}
+
+.site-footer a {
+    color: var(--white);
+}
+
+.site-footer a:hover {
+    text-decoration: none;
+}
+
+.site-footer .layout-icon {
+    transform: scale(1.5);
+}
